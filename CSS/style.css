@@ -71,7 +71,7 @@ body {
     height: auto;
     position: relative;
     overflow: hidden;
-    background: url('./IMG/FLANDER-COIN-MEME-IMAG-LOGO-02-MINI.png') repeat top/5%;
+    background: url('../IMG/FLANDER-COIN-MEME-IMAG-LOGO-02-MINI.png') repeat top/5%;
     animation: moveUp 70s linear infinite;
 }
 @keyframes moveUp {
@@ -135,7 +135,7 @@ body {
         height: auto;
         position: relative;
         overflow: hidden;
-        background: url('./IMG/FLANDER-COIN-MEME-IMAG-LOGO-02-MINI.png') repeat top/20%;
+        background: url('../IMG/FLANDER-COIN-MEME-IMAG-LOGO-02-MINI.png') repeat top/20%;
         animation: moveUp 40s linear infinite;
     }
     .h2 {
