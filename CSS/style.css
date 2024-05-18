@@ -121,11 +121,13 @@ body {
 .container_info-2 {
     background-color: #ffffff;
 }
+.container_info-3 {
+    background-color: #f7d51c;
+}
 .info_img {
     width: 100%;
     height: auto;
 }
-
 .lista_ul {
     font-size: 2rem;
     display: flex;
