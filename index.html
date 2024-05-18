@@ -14,7 +14,7 @@
     <main class="container_bg">
         <header>
             <nav class="nav">
-                <button class="button" onclick="copiarContenido()" onclick="myalert()">Contract</button>
+                <button class="button" onclick="copiarContenido()">Contract</button>
                 <button class="button"><a href="https://dexscreener.com/search">Chart</a></button>
             </nav>
         </header>
@@ -59,10 +59,7 @@
         console.log('Contenido copiado al portapapeles');
       } catch (err) {
         console.error('Error al copiar: ', err);
-      }
-    }
-    function myalert() {
-        alert("Contract copied.");
+      } alert("Contract copied.");
     }
   </script>
 </html>
