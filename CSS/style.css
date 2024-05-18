@@ -7,6 +7,7 @@ body {
     font-size: 16px;
     color: #212121;
     background-color: #f7d51c;
+    text-decoration: none;
 }
 .footer {
     width: 100%;
@@ -34,6 +35,8 @@ body {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    border: #f7d51c;
+    border-radius: 0.5rem;
 }
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
