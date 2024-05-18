@@ -24,11 +24,7 @@ body {
     padding: 1rem;
     justify-content: end;
 }
-.h3 {
-    font-size: 2rem;
-    text-align: center;
-    margin: 1rem;
-}
+
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
     font-weight: bolder;
@@ -61,6 +57,17 @@ body {
     align-self: center;
     margin: 1rem 1rem;
     list-style: none;
+}
+.h2 {
+    font-size: 3rem;
+    display: block;
+    position: absolute;
+    margin: 1rem  1rem;
+}
+.h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
 }
 .img_main {
     width: 60%;
@@ -105,12 +112,7 @@ body {
     width: 100%;
     height: auto;
 }
-.h2 {
-    font-size: 3rem;
-    display: block;
-    position: absolute;
-    margin: 1rem  1rem;
-}
+
 .lista_ul {
     font-size: 2rem;
     display: flex;
