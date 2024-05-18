@@ -134,6 +134,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    .nav {
+        padding: 0.5rem;
+        justify-content: end;
+    }
     .title_h1 {
         font-size: 2rem;
         -webkit-text-fill-color: #6a3d26;
@@ -178,9 +182,5 @@ body {
         display: flex;
         align-items: baseline;
         justify-content: space-evenly;
-    }
-    .nav {
-        padding: 0.5rem 1rem 0 0;
-        justify-content: end;
     }    
 }
