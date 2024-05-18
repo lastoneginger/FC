@@ -94,6 +94,7 @@ body {
     background: url('../IMG/FLANDER-COIN-MEME-IMAG-LOGO-02-MINI.png') repeat top/5%;
     animation: moveUp 70s linear infinite;
 }
+/* BG IMG MOVING*/
 @keyframes moveUp {
     0% {
         background-position: 0% 100%;
@@ -140,7 +141,7 @@ body {
     width: 20%;
     height: auto;
 }
-
+/* MOBILE CONF. MAX 600PX */
 @media only screen and (max-width: 600px) {
     .nav {
         padding: 0.5rem;
