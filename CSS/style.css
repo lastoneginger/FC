@@ -146,6 +146,7 @@ body {
     .nav {
         padding: 0.5rem;
         justify-content: end;
+        background: #f7d51c;
     }
     .title_h1 {
         font-size: 2rem;
