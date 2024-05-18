@@ -149,6 +149,17 @@ body {
         background: url('../IMG/FLANDER-COIN-MEME-IMAG-LOGO-02-MINI.png') repeat top/20%;
         animation: moveUp 40s linear infinite;
     }
+    .button {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: #6a3d26;
+        color: #f7d51c;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
     .h1 {
         font-size: 3rem;
         -webkit-text-fill-color: #6a3d26;
