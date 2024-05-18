@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script>
+        let texto = document.getElementById('miTexto').innerHTML;
+        const copiarContenido = async () => {
+          try {
+            await navigator.clipboard.writeText(texto);
+            console.log('Contenido copiado al portapapeles');
+          } catch (err) {
+            console.error('Error al copiar: ', err);
+          }
+        }
+      </script>
     <!--google font style-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +40,7 @@
             </section>
             <section class="container_info">
                 <img class="info_img" src="IMG/section-background-white-01.png" alt="flanders">
-                <h2 class="poetsen-one-regular h1-2 h2">CA: X000000000000...</h2>
+                <h2 id="miTexto" class="poetsen-one-regular h1-2 h2">CA: X000000000000...<button class="btn" onclick="copiarContenido()">¡Copiar!</button></h2>
             </section>
             <section class="container_info-2">
                 <ul class="poetsen-one-regular h1-2 lista_ul">
