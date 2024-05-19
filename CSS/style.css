@@ -28,7 +28,7 @@ body {
     background: linear-gradient(180deg, rgba(247,213,28,1) 35%, rgba(254,255,0,0) 100%);
 }
 .logo_img {
-    width: 150px;
+    width: 7rem;
     height: auto;
 }
 .button {
@@ -184,6 +184,7 @@ body {
         animation: moveUp 40s linear infinite;
     }
     .button {
+        width: inherit;
         display: inline-block;
         font-size: 1rem;
         font-weight: bold;
