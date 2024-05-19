@@ -23,9 +23,13 @@ body {
     height: auto;
     display: flex;
     padding: 1rem;
-    justify-content: end;
+    justify-content: space-between;
     background: rgb(247,213,28);
     background: linear-gradient(180deg, rgba(247,213,28,1) 35%, rgba(254,255,0,0) 100%);
+}
+.logo_img {
+    width: 150px;
+    height: auto;
 }
 .button {
     display: inline-block;
