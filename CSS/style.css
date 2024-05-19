@@ -32,10 +32,11 @@ body {
     height: auto;
 }
 .button {
+    height: fit-content;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 1rem;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 0.8rem 1rem 0.8rem 1rem;
     background-color: #6a3d26;
     color: #f7d51c;
     text-align: center;
