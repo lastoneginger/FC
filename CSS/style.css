@@ -210,9 +210,15 @@ body {
     .lista_ul {
         font-size: 0.8rem;
         display: flex;
-        align-items: baseline;
         justify-content: space-evenly;
         align-items: end;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .lista {
+        width: 150px;
+        height: auto;
+        margin: 1rem;
     }
     .container_info-3 {
         width: 100%;
