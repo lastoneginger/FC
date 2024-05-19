@@ -125,7 +125,8 @@ body {
 .container_info-3 {
     width: 100%;
     height: auto;
-    background-color: #f7d51c;
+    background: url('https://giphy.com/embed/hGB5RMigOfkY0');
+    background-size: cover;
 }
 .info_img {
     width: 100%;
